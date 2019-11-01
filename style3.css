@@ -1,0 +1,126 @@
+ @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap');
+
+ body
+ {
+ 	margin-top: 0;
+
+ }
+ header
+ {
+ 	background: black;
+ 	color: white;
+ 	padding: 8px 0px 6px 40px;
+ 	height: 50px;
+ }
+ header h1
+ {
+ 	display: inline;
+ 	font-family: 'Noto Sans TC', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 32px;
+ 	float: left;
+ 	margin-top: 0px;
+ 	margin-right: 10px;
+}
+nav ul
+{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none; 
+}
+#nav
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered
+{
+	background-color: red;
+	padding: 30px 10px 20px 10px;
+}
+.homepink{
+	background-color: pink;
+	padding: 30px 10px 20px 10px;
+}
+.divider{
+	background-color: orange;
+	height: 10px; 
+}
+.divider2{
+	background-color: white;
+	height: 10px;
+}
+.divider3{
+	background-color: green;
+	height: 10px;
+}
+.homeblack:hover
+{
+	background-color: blue;
+	padding: 30px 10px 20px 10px;
+}
+.background1
+{
+	background:url(nature.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1500px;
+	height: 800px; 
+	margin: 0;
+	padding: 0;
+}
+.homesub
+{
+	font-family: 'Philosopher', sans-serif;
+	margin: 0;
+	padding: 9% 5% 0% 55%;
+	font-size: 25px;
+	color: yellow;
+
+}
+
+.homepho
+{
+	font-family:'Philosopher', sans-serif; 
+	margin: 0% 0% 0% 55%;
+	font-size: 64px;
+	color:black;
+	display: inline-block;
+
+}
+
+.buttonhome{
+	margin: 0% 0% 0% 55%;
+	background: yellow;
+	color: black;
+	border:none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;;
+	outline: none;
+	font-family: font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+
+}
+.buttonhome:hover
+{
+	background-color: blue;
+}
+
+

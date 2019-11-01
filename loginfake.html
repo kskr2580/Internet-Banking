@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<marquee behavior="scroll" direction="left"><b><font size="6">Hi! Welcome to TS Bank Online Banking...We are here to make your payments easy and faster..... </font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="15"><b><font size="2">TS Bank.....TS Bank.....TS Bank.....TS Bank.....</font></marquee><br><br>
+<marquee behavior="scroll" direction="left" scrollamount="10"><b><font size="2">Money Transfer</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="20"><b><font size="2">BillPay</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Recharge</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="40"><b><font size="2">Loans</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="50"><b><font size="2">EMI</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="40"><b><font size="2">Insurance</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Credit Cards</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="40"><b><font size="2">Debit Cards</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="50"><b><font size="2">Mutual Funds</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Offers</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="40"><b><font size="2">Balance</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="50"><b><font size="2">Home Loan</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="20"><b><font size="2">Personal Loan</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Balance</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="20"><b><font size="2">Gold Loan</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="25"><b><font size="2">Fixed Deposit</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Shop Online</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="40"><b><font size="2">Locker facility</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="15"><b><font size="2">ATM Services</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="25"><b><font size="2">Foreign Currency Exchange</font></marquee>
+<marquee behavior="scroll" direction="left" scrollamount="30"><b><font size="2">Mobile Banking</font></marquee>
+
+	<div class="loginbox">
+	<img src="login.jpg" class="login">	
+	<h1>Login Here</h1>
+	<form name="Login">
+		<p>Username </p>
+		<input type="text" name="userid" placeholder="Enter Username">
+		<p>Password</p>
+		<input type="Password" name="pswrd" placeholder="Enter Password"><br>
+		<input type="submit" onclick="check(this.form)" value="Login"><br>
+		<a href="forget.html">Forget password</a><br>
+		<a href="dont.html">Don't have an account</a>
+	</form>
+	<script language="javascript">
+		function check(form)
+		{
+			if (form.userid.value=="admin" && form.pswrd.value=="admin123") 
+			{
+				window.open('homepage2.html')
+			}
+			else
+			{
+				alert("Error Password or Username")
+
+			}
+		}
+	</script>
+	</div>
+	
+</body>
+</html>
